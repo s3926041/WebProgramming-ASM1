@@ -1,0 +1,72 @@
+.dBook{
+    width: 90%;
+}
+.breadcumbs {
+  padding:0;
+
+}
+.bread-item{
+    display: inline-block;
+    font-size: 20px;
+  
+}
+.bread-item a {
+    color: #000;
+}
+.bread-item:not(:last-of-type)::after{
+    content: ">";
+    margin:0 5px;
+}
+.bread-item:last-child{
+    color: crimson;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.image-container img {
+    background:#fff;
+    border-radius: 1rem;
+    width: 400px;
+    height:300px;
+
+}
+
+.small-images{
+    display: flex;
+
+}
+.small-images img{
+    margin: 20px;
+    height: 80px;
+    width: 120px;
+}
+
+@media (min-width: 768px) {
+    .dBook{
+        width: 80%;
+    }
+    .image-container{
+        flex-direction: row;
+    }
+    .small-images{
+        flex-direction: column;
+    }
+    .small-images img{
+        margin:10px 20px ;
+     
+    }
+    .upper-container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1280px){
+    .dBook{
+        width: 60%;
+    }
+}

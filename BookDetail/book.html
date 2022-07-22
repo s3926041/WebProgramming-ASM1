@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Details</title> 
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <link rel="stylesheet" type="text/css" href="./book.css" />
+    
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="../index.html">Hung</a>
+      <input type="checkbox" id="toggle" class="toggle" />
+      <label for="toggle" class="hamburger">
+        <div class="container"><span></span></div>
+      </label>
+      <nav>
+        <ul class="nav-mobile">
+          <li class="nav-item"><a href="../index.html">Home</a></li>
+          <li class="nav-item"><a href="../Category/category.html">Category 1</a></li>
+          <li class="nav-item"><a href="../Category/category.html">Category 2</a></li>
+        </ul>
+        <ul class="nav-desktop">
+          <li class="nav-item-desktop"><a href="../index.html">Home</a></li>
+          <li class="nav-item-desktop"><a href="../Category/category.html">Category 1</a></li>
+          <li class="nav-item-desktop"><a href="../Category/category.html">Category 2</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="dBook">
+        <ul class="breadcumbs">
+            <li class="bread-item">
+                <a href="../index.html">Home</a>
+            </li>
+            
+            <li class="bread-item">
+                <a href="../Category/category.html">Category</a>
+            </li>
+            
+            <li class="bread-item">
+                <span>Book Name</span>
+            </li>
+        </ul>
+       
+        <section class="bookDetails">
+            <div class="upper-container">
+                <div class="image-container">
+                    <img src="../images/book.png" alt="largeImage">
+                    <div class="small-images">
+                        <img src="../images/book.png" alt="smallImage"><img src="../images/book.png" alt="smallImage"><img src="../images/book.png" alt="smallImage">
+                    </div>
+                </div>
+                <div class="aside">
+                    <h2>Book Name</h2>
+                    <h3>Book Price</h3>
+                    <input type="button" value="Add to cart">
+                </div>
+            </div>
+            
+            <div class="description">
+                <h1>Description</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur dolor vel diam auctor interdum. Morbi id nulla eget augue aliquam dictum. Etiam nisl risus, varius et ultricies eu, interdum vel purus. Duis ac urna turpis. Aenean sed odio egestas, pellentesque justo ac, consectetur felis. Proin eget erat nec mauris fermentum efficitur sed a erat. Aliquam iaculis eget lorem eget convallis.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="stick-footer">
+      <div class="footer-container">
+        <div class="sec-container">
+          <a href="#"><h3>About us</h3></a>
+        </div>
+        <div class="sec-container">
+          <a href="#"><h3>Privacy Policy</h3></a>
+        </div>
+        <div class="sec-container">
+          <a href="#"><h3>Terms</h3></a>
+        </div>
+        <div class="sec-container">
+          <a href="#"><h3>Copyright</h3></a>
+        </div>
+        <div class="sec-container">
+          <a href="../Contact/contact.html"><h3>Contact</h3></a>
+        </div>
+      </div>
+      <div class="under-footer">Contact</div>
+    </footer>
+  </body>
+</html>

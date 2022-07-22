@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title> 
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <link rel="stylesheet" type="text/css" href="./contact.css" />
+    
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="../index.html">Hung</a>
+      <input type="checkbox" id="toggle" class="toggle" />
+      <label for="toggle" class="hamburger">
+        <div class="container"><span></span></div>
+      </label>
+      <nav>
+        <ul class="nav-mobile">
+          <li class="nav-item"><a href="../index.html">Home</a></li>
+          <li class="nav-item"><a href="../Category/category.html">Category 1</a></li>
+          <li class="nav-item"><a href="../Category/category.html">Category 2</a></li>
+        </ul>
+        <ul class="nav-desktop">
+          <li class="nav-item-desktop"><a href="../index.html">Home</a></li>
+          <li class="nav-item-desktop"><a href="../Category/category.html">Category 1</a></li>
+          <li class="nav-item-desktop"><a href="../Category/category.html">Category 2</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contact">
+      <h1>Contact us</h1>
+      <form action="" method="post">
+        <div class="form-element">
+          <label for="purpose">Contact purpose</label>
+          <select name="purpose" id ="purpose">
+            <option value="sellIntend">I want to sell books</option>
+            <option value="buyIntend">I want to buy books</option>
+          </select>
+         </div>
+         <div class="form-element">
+          <label for ="name">Your name:</label>
+          <input type="text" id ="name" name="name" value="">
+
+         </div>
+         <div class="form-element">
+          <label for ="email">Your email:</label>
+          <input type="email" id ="email" name="email" value="">
+         </div>
+         <div class="form-element">
+          <label for ="phone">Your phone:</label>
+          <input type="tel" id ="phone" value="" >
+         </div>
+         <div class="form-element">
+          <span>How can we contact you</span> <br>
+          <label for="byPhone">Phone</label>
+          <input type="checkbox" name="byPhone" id="byPhone">
+          <label for="byEmail">Email</label>
+          <input type="checkbox" name="byEmail" id="byEmail">
+         </div>
+         <div class="form-element">
+          <span>Do you want to receive our weekly newsletter</span><br>
+          <label for="radio1">Yes</label>
+          <input type="radio" name="radio" id="radio1">
+          <label for="radio2">No</label>
+          <input type="radio" name="radio" id = "radio2">
+         </div>
+         <div class="form-element">
+          <label for="note">Note for us</label> <br>
+          <textarea name="note" id="note" cols="30" rows="5"></textarea>
+         </div>
+         <div class="form-element">
+          <input type="submit" name="submit" id="submit">
+          <input type="reset" name="reset" id="reset">
+         </div>
+          
+      </form>
+    </main>
+
+    <footer class="stick-footer">
+      <div class="footer-container">
+        <div class="sec-container">
+          <a href="#"><h3>About us</h3></a>
+        </div>
+        <div class="sec-container">
+          <a href="#"><h3>Privacy Policy</h3></a>
+        </div>
+        <div class="sec-container">
+          <a href="#"><h3>Terms</h3></a>
+        </div>
+        <div class="sec-container">
+          <a href="#"><h3>Copyright</h3></a>
+        </div>
+        <div class="sec-container">
+          <a href="./contact.html"><h3>Contact</h3></a>
+        </div>
+      </div>
+      <div class="under-footer">Contact</div>
+    </footer>
+  </body>
+</html>
