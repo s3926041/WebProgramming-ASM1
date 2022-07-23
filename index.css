@@ -195,15 +195,22 @@ color: #000;
 /* MAIN */
 main {
   width: 100%;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin: 100px auto;
+  margin-bottom: 0;
+
+
 }
 .homepage .category {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   min-height: 50vh;
+}
+.homepage  .category .title{
+width: 250px;
+  
 }
 .homepage .category a{
   color:#000;
@@ -234,7 +241,7 @@ main {
 h1{
   font-size: 30px;
 }
-a:hover{
+img:hover{
   opacity: 0.8;
 }
 @media (min-width:768px){
